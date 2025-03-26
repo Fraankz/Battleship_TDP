@@ -4,7 +4,7 @@ package com.hundirlaflota.model;
  * Clase abstracta base que define la lógica común de los barcos.
  */
 public abstract class Ship {
-    protected int size;
+    public int size;
     protected boolean[] hits;
 
     protected Ship(int size) {
